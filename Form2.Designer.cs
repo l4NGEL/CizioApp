@@ -16,7 +16,7 @@
         private void InitializeComponent()
         {
             this.btnOyunaBasla = new System.Windows.Forms.Button();
-            this.cmbCategories = new System.Windows.Forms.ComboBox();
+            this.txtCategory = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnOyunaBasla
@@ -29,26 +29,25 @@
             this.btnOyunaBasla.UseVisualStyleBackColor = true;
             this.btnOyunaBasla.Click += new System.EventHandler(this.btnOyunaBasla_Click);
             // 
-            // cmbCategories
+            // txtCategory
             // 
-            this.cmbCategories.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCategories.FormattingEnabled = true;
-            this.cmbCategories.Location = new System.Drawing.Point(100, 150);
-            this.cmbCategories.Name = "cmbCategories";
-            this.cmbCategories.Size = new System.Drawing.Size(121, 21);
-            this.cmbCategories.TabIndex = 1;
+            this.txtCategory.Location = new System.Drawing.Point(100, 150);
+            this.txtCategory.Name = "txtCategory";
+            this.txtCategory.Size = new System.Drawing.Size(121, 20);
+            this.txtCategory.TabIndex = 1;
             // 
             // Form2
             // 
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.cmbCategories);
+            this.Controls.Add(this.txtCategory);
             this.Controls.Add(this.btnOyunaBasla);
             this.Name = "Form2";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         private System.Windows.Forms.Button btnOyunaBasla;
-        private System.Windows.Forms.ComboBox cmbCategories;
+        private System.Windows.Forms.TextBox txtCategory;
     }
 }

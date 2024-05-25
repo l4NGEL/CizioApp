@@ -15,65 +15,70 @@
 
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnGirisYap = new System.Windows.Forms.Button();
-            this.btnNasilOynanir = new System.Windows.Forms.Button();
-            this.btnCikisYap = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            btnGirisYap = new Button();
+            btnNasilOynanir = new Button();
+            btnCikisYap = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(150, 50);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 37);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Çizio";
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(213, 78);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(115, 46);
+            label1.TabIndex = 0;
+            label1.Text = "Çizio";
             // 
             // btnGirisYap
             // 
-            this.btnGirisYap.Location = new System.Drawing.Point(150, 120);
-            this.btnGirisYap.Name = "btnGirisYap";
-            this.btnGirisYap.Size = new System.Drawing.Size(100, 23);
-            this.btnGirisYap.TabIndex = 1;
-            this.btnGirisYap.Text = "Giriş Yap";
-            this.btnGirisYap.UseVisualStyleBackColor = true;
-            this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
+            btnGirisYap.Location = new Point(200, 185);
+            btnGirisYap.Margin = new Padding(4, 5, 4, 5);
+            btnGirisYap.Name = "btnGirisYap";
+            btnGirisYap.Size = new Size(133, 35);
+            btnGirisYap.TabIndex = 1;
+            btnGirisYap.Text = "Giriş Yap";
+            btnGirisYap.UseVisualStyleBackColor = true;
+            btnGirisYap.Click += btnGirisYap_Click;
             // 
             // btnNasilOynanir
             // 
-            this.btnNasilOynanir.Location = new System.Drawing.Point(150, 160);
-            this.btnNasilOynanir.Name = "btnNasilOynanir";
-            this.btnNasilOynanir.Size = new System.Drawing.Size(100, 23);
-            this.btnNasilOynanir.TabIndex = 2;
-            this.btnNasilOynanir.Text = "Nasıl Oynanır";
-            this.btnNasilOynanir.UseVisualStyleBackColor = true;
-            this.btnNasilOynanir.Click += new System.EventHandler(this.btnNasilOynanir_Click);
+            btnNasilOynanir.Location = new Point(200, 246);
+            btnNasilOynanir.Margin = new Padding(4, 5, 4, 5);
+            btnNasilOynanir.Name = "btnNasilOynanir";
+            btnNasilOynanir.Size = new Size(133, 35);
+            btnNasilOynanir.TabIndex = 2;
+            btnNasilOynanir.Text = "Nasıl Oynanır";
+            btnNasilOynanir.UseVisualStyleBackColor = true;
+            btnNasilOynanir.Click += btnNasilOynanir_Click;
             // 
             // btnCikisYap
             // 
-            this.btnCikisYap.Location = new System.Drawing.Point(150, 200);
-            this.btnCikisYap.Name = "btnCikisYap";
-            this.btnCikisYap.Size = new System.Drawing.Size(100, 23);
-            this.btnCikisYap.TabIndex = 3;
-            this.btnCikisYap.Text = "Çıkış Yap";
-            this.btnCikisYap.UseVisualStyleBackColor = true;
-            this.btnCikisYap.Click += new System.EventHandler(this.btnCikisYap_Click);
+            btnCikisYap.Location = new Point(200, 308);
+            btnCikisYap.Margin = new Padding(4, 5, 4, 5);
+            btnCikisYap.Name = "btnCikisYap";
+            btnCikisYap.Size = new Size(133, 35);
+            btnCikisYap.TabIndex = 3;
+            btnCikisYap.Text = "Çıkış Yap";
+            btnCikisYap.UseVisualStyleBackColor = true;
+            btnCikisYap.Click += btnCikisYap_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 400);
-            this.Controls.Add(this.btnCikisYap);
-            this.Controls.Add(this.btnNasilOynanir);
-            this.Controls.Add(this.btnGirisYap);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Çizio";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(533, 615);
+            Controls.Add(btnCikisYap);
+            Controls.Add(btnNasilOynanir);
+            Controls.Add(btnGirisYap);
+            Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "Form1";
+            Text = "Çizio";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         private System.Windows.Forms.Label label1;

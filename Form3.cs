@@ -6,21 +6,20 @@ namespace CizioApp
 {
     public partial class Form3 : Form
     {
-        public Form3()
+
+
+        string foreignWord;
+
+        public Form3(string v)
         {
             InitializeComponent();
+
+            foreignWord = v;
         }
 
-        private void btnStartPaint_Click(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
-            // Rastgele bir kelime seçimi
-            List<string> words = new List<string> { "Kedi", "Köpek", "Aslan", "Kaplan", "Kalem", "Bilgisayar", "Masa", "Sandalye", "Doktor", "Mühendis", "Öğretmen", "Polis", "Pizza", "Hamburger", "Makarna", "Salata" };
-            Random rand = new Random();
-            string selectedWord = words[rand.Next(words.Count)];
-
-            PaintForm paintForm = new PaintForm("Player 1", selectedWord);
-            paintForm.Show();
-            this.Hide();
+            lblCizen.Text = foreignWord;
         }
     }
 }

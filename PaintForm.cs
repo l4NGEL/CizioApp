@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Drawing;
-using System.Net.Http.Headers;
-using System.Text.Json;
-using System.Windows.Forms;
 using System.Net.Http;
-using System.Text.Json;
+using System.Windows.Forms;
 
 namespace CizioApp
 {
@@ -12,7 +9,7 @@ namespace CizioApp
     {
         private Bitmap canvas;
         private Color currentColor = Color.Black;
-        private string currentShape = "FreeDraw"; // Varsayılan olarak serbest çizim
+        private string currentShape = "FreeDraw";
         private bool isDrawing = false;
         private Point startPoint, endPoint;
 
@@ -21,10 +18,9 @@ namespace CizioApp
         private System.Windows.Forms.Timer wordTimer;
         private System.Windows.Forms.Timer drawTimer;
         private Label lblTimer;
-        private int drawTimeLeft = 60; // 60 saniye
+        private int drawTimeLeft = 60;
 
         private static readonly HttpClient client = new HttpClient();
-
 
         public PaintForm(string playerName, string word)
         {
@@ -35,20 +31,20 @@ namespace CizioApp
 
             lblWord = new Label();
             lblWord.Text = word;
-            lblWord.Font = new Font("Arial", 15, FontStyle.Bold); // Font size updated for better visibility
-            lblWord.ForeColor = Color.Red; // Color updated for better visibility
+            lblWord.Font = new Font("Arial", 15, FontStyle.Bold);
+            lblWord.ForeColor = Color.Red;
             lblWord.BackColor = Color.White;
             lblWord.AutoSize = true;
             lblWord.Location = new Point(710, 20);
             this.Controls.Add(lblWord);
 
             wordTimer = new System.Windows.Forms.Timer();
-            wordTimer.Interval = 10000; // 10 saniye
+            wordTimer.Interval = 10000;
             wordTimer.Tick += new EventHandler(WordTimer_Tick);
             wordTimer.Start();
 
             drawTimer = new System.Windows.Forms.Timer();
-            drawTimer.Interval = 1000; // 1 saniye
+            drawTimer.Interval = 1000;
             drawTimer.Tick += new EventHandler(DrawTimer_Tick);
             drawTimer.Start();
 
@@ -72,8 +68,7 @@ namespace CizioApp
             if (drawTimeLeft <= 0)
             {
                 drawTimer.Stop();
-                MessageBox.Show("Süre doldu!");
-                this.Close();
+                ShowGuessPageForm();
             }
         }
 
@@ -95,27 +90,19 @@ namespace CizioApp
                 Button shapeButton = new Button();
                 shapeButton.Tag = shapes[i];
                 shapeButton.Text = shapes[i];
-                shapeButton.Location = new Point(60 + (i * 80),10);
+                shapeButton.Location = new Point(60 + (i * 80), 10);
                 shapeButton.Size = new Size(75, 23);
                 shapeButton.Click += new EventHandler(this.ShapeButton_Click);
                 this.Controls.Add(shapeButton);
-
-                if(i == shapes.Length-1)
-                {
-                    Button endButton = new Button();
-                    endButton.BackColor = Color.Red;
-                    endButton.Text = "Finish";
-                    endButton.Size = new Size(colorButtonSize + 50, colorButtonSize);
-                    endButton.Location = new Point(100 + ((i+1) * 80), 10);
-                    endButton.Click += new EventHandler(this.EndButton_Click);
-                    this.Controls.Add(endButton);
-                }
-
             }
 
-           
-
-
+            Button endButton = new Button();
+            endButton.BackColor = Color.Red;
+            endButton.Text = "Finish";
+            endButton.Size = new Size(colorButtonSize + 50, colorButtonSize);
+            endButton.Location = new Point(60 + (shapes.Length * 80), 10);
+            endButton.Click += new EventHandler(this.EndButton_Click);
+            this.Controls.Add(endButton);
         }
 
         private void PaintForm_MouseDown(object sender, MouseEventArgs e)
@@ -227,48 +214,11 @@ namespace CizioApp
                 Math.Abs(p1.Y - p2.Y));
         }
 
-
-
-        private async Task<string> translate(string text)
-        {
-
-            var request = new HttpRequestMessage
-            {
-                Method = HttpMethod.Post,
-                RequestUri = new Uri("https://google-translator9.p.rapidapi.com/v2"),
-                Headers =
-         {
-             { "x-rapidapi-key", "f812bc03famsha491e92cf972a41p12327djsnca7a41cd834b" },
-             { "x-rapidapi-host", "google-translator9.p.rapidapi.com" },
-         },
-                Content = new StringContent("{\"q\":\"" + text + "\",\"source\":\"tr\",\"target\":\"en\",\"format\":\"text\"}")
-                {
-                    Headers = { ContentType = new MediaTypeHeaderValue("application/json") }
-                }
-            };
-
-            using (var response = await client.SendAsync(request))
-            {
-                response.EnsureSuccessStatusCode();
-                var body = await response.Content.ReadAsStringAsync();
-                var jsonDoc = JsonDocument.Parse(body);
-                var translatedText = jsonDoc.RootElement
-                                            .GetProperty("data")
-                                            .GetProperty("translations")[0]
-                                            .GetProperty("translatedText")
-                                            .GetString();
-
-                return translatedText;
-            }
-        }
-
-
-
         private void ColorButton_Click(object sender, EventArgs e)
         {
             ColorDialog dlg = new ColorDialog();
             dlg.Color = currentColor;
-            
+
             if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK && dlg.Color != currentColor)
             {
                 currentColor = dlg.Color;
@@ -279,15 +229,28 @@ namespace CizioApp
 
         private void ShapeButton_Click(object sender, EventArgs e)
         {
-            Button button = sender as Button;
-            currentShape = button.Tag.ToString();
+            Button clickedButton = (Button)sender;
+            currentShape = clickedButton.Tag.ToString();
         }
 
-        private async void EndButton_Click(object sender, EventArgs e)
+        private void SaveCanvas()
         {
-            Form3 form = new Form3(await translate(lblWord.Text));
-            form.Show();
+            string filePath = "canvas.png";
+            canvas.Save(filePath, System.Drawing.Imaging.ImageFormat.Png);
         }
 
+        private void ShowGuessPageForm()
+        {
+            SaveCanvas(); // Save the canvas before showing the guess page form
+            string filePath = "canvas.png";
+            GuessPageForm guessPageForm = new GuessPageForm(filePath);
+            guessPageForm.Show();
+            this.Hide();
+        }
+
+        private void EndButton_Click(object sender, EventArgs e)
+        {
+            ShowGuessPageForm();
+        }
     }
 }

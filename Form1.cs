@@ -19,12 +19,17 @@ namespace CizioApp
 
         private void btnNasilOynanir_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nasýl Oynanýr bilgileri burada gösterilecek.", "Nasýl Oynanýr");
+            FormHowToPlay howToPlayForm = new FormHowToPlay();
+            howToPlayForm.Show();
         }
 
         private void btnCikisYap_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -1,29 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http.Headers;
-using System.Text.Json;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
-namespace CizioApp
+﻿namespace CizioApp
 {
     public partial class Form2 : Form
     {
-        private Dictionary<string, List<string>> categories;
-
         public Form2()
         {
             InitializeComponent();
-            
         }
 
         private void btnOyunaBasla_Click(object sender, EventArgs e)
         {
-            string word = txtCategory.Text; 
-            PaintForm paintForm = new PaintForm("Player 1", word);
+            string player1Name = txtPlayer1.Text;
+            string player2Name = txtPlayer2.Text;
+            
+            string word = txtCategory.Text;
+
+            PaintForm paintForm = new PaintForm(player1Name, word);
             paintForm.Show();
             this.Hide();
         }
 
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

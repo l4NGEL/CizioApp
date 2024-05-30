@@ -292,7 +292,7 @@ namespace CizioApp
     
 
 
-    private async void ShowGuessTimeForm()
+        private async void ShowGuessTimeForm()
         {
             SaveCanvas(); // Save the canvas before showing the guess page 
             string mainWord = await translate(word);

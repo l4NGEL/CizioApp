@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\visualstudio\\CizioApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\guesspageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesspageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\paintform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,12 +74,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GuessPageForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs",
               "RelativeDocumentMoniker": "GuessPageForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs*",
-              "RelativeToolTip": "GuessPageForm.cs*",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs",
+              "RelativeToolTip": "GuessPageForm.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAhwCgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T14:31:44.726Z",
@@ -87,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PaintForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs",
               "RelativeDocumentMoniker": "PaintForm.cs",
               "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs*",
               "RelativeToolTip": "PaintForm.cs*",
-              "ViewState": "AQIAABgBAAAAAAAAAAAqwCwBAAA7AAAA",
+              "ViewState": "AQIAABgBAAAAAAAAAAAqwCYBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T14:31:25.42Z",
               "EditorCaption": ""
@@ -213,12 +213,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GuessTimeForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs",
               "RelativeDocumentMoniker": "GuessTimeForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs*",
-              "RelativeToolTip": "GuessTimeForm.cs*",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs",
+              "RelativeToolTip": "GuessTimeForm.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAhwCgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T19:16:41.899Z",

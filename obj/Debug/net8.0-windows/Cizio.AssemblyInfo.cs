@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cizio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdf35b5836c69e4160333240623bc715863a3c51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a38dc9d83b3359fc35f1c3da9999a14ad2de9fa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cizio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cizio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

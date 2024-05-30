@@ -41,5 +41,15 @@ namespace Cizio
             selectionPage.Show();
             this.Close();
         }
+
+        private void WordNotFound_Load(object sender, EventArgs e)
+        {
+            if(playerTurn == 4)
+            {
+                PointStatusForm pointStatusForm = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
+                pointStatusForm.Show();
+                this.Close();
+            }
+        }
     }
 }

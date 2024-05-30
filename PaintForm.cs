@@ -288,14 +288,17 @@ namespace CizioApp
             canvas.Save(filePath, System.Drawing.Imaging.ImageFormat.Png);
         }
 
-        private async void ShowGuessTimeForm()
+        
+    
+
+
+    private async void ShowGuessTimeForm()
         {
-            SaveCanvas(); // Save the canvas before showing the guess page form
-            string filePath = "canvas.png";
+            SaveCanvas(); // Save the canvas before showing the guess page 
             string mainWord = await translate(word);
             Console.WriteLine(mainWord);
             Console.WriteLine(word);
-            GuessTimeForm guessTimeForm = new GuessTimeForm(mainWord, playerTurn, player1Point, player2Point, player1Name, player2Name);
+            GuessTimeForm guessTimeForm = new GuessTimeForm(mainWord, playerTurn, player1Point, player2Point, player1Name, player2Name, canvas);
             guessTimeForm.Show();
             this.Hide();
         }

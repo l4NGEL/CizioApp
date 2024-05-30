@@ -14,11 +14,12 @@ namespace CizioApp
         private int player2Point;
         private string player1Name;
         private string player2Name;
+        private Bitmap canvas;
 
 
 
 
-        public GuessPageForm(string imagePath, string word, int playerTurn, int player1Point, int player2Point, string player1Name, string player2Name)
+        public GuessPageForm(string imagePath, string word, int playerTurn, int player1Point, int player2Point, string player1Name, string player2Name, Bitmap canvas)
         {
             InitializeComponent();
             this.imagePath = imagePath;
@@ -28,8 +29,8 @@ namespace CizioApp
             this.player2Point = player2Point;
             this.player1Name = player1Name;
             this.player2Name = player2Name;
+            this.canvas = canvas;
             LoadImage();
-            
         }
 
         private void LoadImage()
@@ -37,12 +38,24 @@ namespace CizioApp
             if (!string.IsNullOrEmpty(imagePath) && System.IO.File.Exists(imagePath))
             {
                 pictureBox.Image = Image.FromFile(imagePath);
+                DisposeCanvas();
             }
             else
             {
                 MessageBox.Show("Image not found or invalid path.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        public void DisposeCanvas()
+        {
+            // Canvas nesnesini serbest bırak
+            if (canvas != null)
+            {
+                canvas.Dispose();
+                canvas = null;
+            }
+        }
+
 
         int point = 10;
 
@@ -69,6 +82,7 @@ namespace CizioApp
                 ++playerTurn;
                 CorrectAnswerForm correctAnswerForm = new CorrectAnswerForm(point, player1Point, player2Point, playerTurn, player1Name, player2Name);
                 correctAnswerForm.Show();
+                this.Close();
             }
             else
             {

@@ -72,7 +72,6 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "GuessTimeForm";
             Text = "Guess the Word";
-            Load += GuessTimeForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

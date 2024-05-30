@@ -38,7 +38,7 @@ namespace Cizio
             btnNewWord.FlatStyle = FlatStyle.Flat;
             btnNewWord.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
             btnNewWord.ForeColor = Color.White;
-            btnNewWord.Location = new Point(290, 306);
+            btnNewWord.Location = new Point(298, 308);
             btnNewWord.Margin = new Padding(4, 5, 4, 5);
             btnNewWord.Name = "btnNewWord";
             btnNewWord.Size = new Size(188, 46);
@@ -79,6 +79,7 @@ namespace Cizio
             Controls.Add(label2);
             Controls.Add(btnNewWord);
             Name = "WordNotFound";
+            Load += WordNotFound_Load;
             ResumeLayout(false);
             PerformLayout();
         }

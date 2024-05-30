@@ -33,6 +33,7 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            btnNewWord = new Button();
             SuspendLayout();
             // 
             // label1
@@ -90,6 +91,23 @@
             label5.TabIndex = 14;
             label5.Text = "label5";
             // 
+            // btnNewWord
+            // 
+            btnNewWord.BackColor = Color.Red;
+            btnNewWord.FlatAppearance.BorderColor = Color.White;
+            btnNewWord.FlatAppearance.BorderSize = 4;
+            btnNewWord.FlatStyle = FlatStyle.Flat;
+            btnNewWord.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            btnNewWord.ForeColor = Color.White;
+            btnNewWord.Location = new Point(625, 390);
+            btnNewWord.Margin = new Padding(4, 5, 4, 5);
+            btnNewWord.Name = "btnNewWord";
+            btnNewWord.Size = new Size(162, 46);
+            btnNewWord.TabIndex = 1;
+            btnNewWord.Text = "Exit";
+            btnNewWord.UseVisualStyleBackColor = false;
+            btnNewWord.Click += btnNewWord_Click;
+            // 
             // PointStatusForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -101,14 +119,17 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Controls.Add(btnNewWord);
             Name = "PointStatusForm";
             Text = "PointStatusForm";
+            Load += PointStatusForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private Button btnNewWord;
         private Label label1;
         private Label label2;
         private Label label3;

@@ -68,3 +68,4 @@ C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.SelectWordPa
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.CorrectAnswerForm.resources
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.WrongAnswerForm.resources
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.WordNotFound.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.PointStatusForm.resources

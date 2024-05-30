@@ -18,6 +18,9 @@ namespace CizioApp
         private string word;
         private int player1Point;
         private int player2Point;
+        private string player1Name;
+        private string player2Name;
+
 
 
         private Label lblWord;
@@ -28,7 +31,7 @@ namespace CizioApp
         private int playerTurn;
         private static readonly HttpClient client = new HttpClient();
 
-        public PaintForm(string playerName, string word, int playerTurn, int player1Point, int player2Point)
+        public PaintForm(string playerName, string word, int playerTurn, int player1Point, int player2Point, string player1Name, string player2Name)
         {
             InitializeComponent();
             this.Text = $"{playerName} Çiziyor";
@@ -37,6 +40,8 @@ namespace CizioApp
             this.player1Point = player1Point;
             this.player2Point = player2Point;
             this.playerTurn = playerTurn;
+            this.player1Name = player1Name;
+            this.player2Name = player2Name;
 
             lblWord = new Label();
             lblWord.Text = word;
@@ -290,7 +295,7 @@ namespace CizioApp
             string mainWord = await translate(word);
             Console.WriteLine(mainWord);
             Console.WriteLine(word);
-            GuessTimeForm guessTimeForm = new GuessTimeForm(mainWord, playerTurn, player1Point, player2Point);
+            GuessTimeForm guessTimeForm = new GuessTimeForm(mainWord, playerTurn, player1Point, player2Point, player1Name, player2Name);
             guessTimeForm.Show();
             this.Hide();
         }

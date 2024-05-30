@@ -12,9 +12,13 @@ namespace CizioApp
         private int playerTurn;
         private int player1Point;
         private int player2Point;
+        private string player1Name;
+        private string player2Name;
 
 
-        public GuessPageForm(string imagePath, string word, int playerTurn, int player1Point, int player2Point)
+
+
+        public GuessPageForm(string imagePath, string word, int playerTurn, int player1Point, int player2Point, string player1Name, string player2Name)
         {
             InitializeComponent();
             this.imagePath = imagePath;
@@ -22,7 +26,10 @@ namespace CizioApp
             this.playerTurn = playerTurn;
             this.player1Point = player1Point;
             this.player2Point = player2Point;
+            this.player1Name = player1Name;
+            this.player2Name = player2Name;
             LoadImage();
+            
         }
 
         private void LoadImage()
@@ -59,8 +66,8 @@ namespace CizioApp
                 {
                     player2Point += point;
                 }
-
-                CorrectAnswerForm correctAnswerForm = new CorrectAnswerForm(point);
+                ++playerTurn;
+                CorrectAnswerForm correctAnswerForm = new CorrectAnswerForm(point, player1Point, player2Point, playerTurn, player1Name, player2Name);
                 correctAnswerForm.Show();
             }
             else
@@ -73,7 +80,8 @@ namespace CizioApp
                 }
                 else
                 {
-                    WordNotFound wordNotFoundPage = new WordNotFound();
+                    point = 0;
+                    WordNotFound wordNotFoundPage = new WordNotFound(point, player1Point, player2Point, playerTurn, player1Name, player2Name);
                     wordNotFoundPage.Show();
                     this.Close();
                 }

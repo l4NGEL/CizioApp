@@ -88,7 +88,7 @@ namespace Cizio
 
         private void btnOyunaBasla_Click(object sender, EventArgs e)
         {
-            PaintForm paintForm = new PaintForm(drawingPlayer, text.Text, playerTurn, player1Point, player2Point);
+            PaintForm paintForm = new PaintForm(drawingPlayer, text.Text, playerTurn, player1Point, player2Point, player1Name, player2Name);
             paintForm.Show();
             this.Hide();
         }

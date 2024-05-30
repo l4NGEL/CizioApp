@@ -3,72 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\visualstudio\\CizioApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesspageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesspageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\selectwordpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:selectwordpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\correctanswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:correctanswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesspageform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesspageform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\correctanswerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:correctanswerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\pointstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:pointstatusform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wordnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wordnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\paintform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesspageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesspageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesspageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -83,20 +31,76 @@
       "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wronganswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wordnotfound.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wordnotfound.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wordnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wordnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wronganswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wronganswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wronganswerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wronganswerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wronganswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wronganswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\selectwordpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:selectwordpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:selectwordpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesstimeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\correctanswerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:correctanswerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\correctanswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:correctanswerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\guesspageform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:guesspageform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|C:\\Users\\musta\\visualstudio\\CizioApp\\paintform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:paintform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wordnotfound.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wordnotfound.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\wordnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|solutionrelative:wordnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44B7096B-7B5B-41E5-B6FB-1E2D852CD40F}|Cizio.csproj|c:\\users\\musta\\visualstudio\\cizioapp\\formhowtoplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -110,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,19 +130,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
+              "Title": "PointStatusForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\PointStatusForm.cs",
+              "RelativeDocumentMoniker": "PointStatusForm.cs",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\PointStatusForm.cs [Design]",
+              "RelativeToolTip": "PointStatusForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T09:50:58.529Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "PaintForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs",
               "RelativeDocumentMoniker": "PaintForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs [Design]*",
-              "RelativeToolTip": "PaintForm.cs [Design]*",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs [Design]",
+              "RelativeToolTip": "PaintForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T09:24:00.976Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -151,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 6,
               "Title": "WrongAnswerForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\WrongAnswerForm.cs",
               "RelativeDocumentMoniker": "WrongAnswerForm.cs",
@@ -163,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -176,20 +192,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "WordNotFound.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\WordNotFound.cs",
               "RelativeDocumentMoniker": "WordNotFound.cs",
               "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\WordNotFound.cs",
               "RelativeToolTip": "WordNotFound.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAArwBMAAABBAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAvwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T08:36:29.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "WordNotFound.Designer.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\WordNotFound.Designer.cs",
               "RelativeDocumentMoniker": "WordNotFound.Designer.cs",
@@ -202,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "WordNotFound.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\WordNotFound.cs",
               "RelativeDocumentMoniker": "WordNotFound.cs",
@@ -214,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 8,
               "Title": "WrongAnswerForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\WrongAnswerForm.Designer.cs",
               "RelativeDocumentMoniker": "WrongAnswerForm.Designer.cs",
@@ -227,20 +243,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 7,
               "Title": "WrongAnswerForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\WrongAnswerForm.cs",
               "RelativeDocumentMoniker": "WrongAnswerForm.cs",
               "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\WrongAnswerForm.cs",
               "RelativeToolTip": "WrongAnswerForm.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAvwC8AAAAHAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAnwC8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T07:44:31.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "CorrectAnswerForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\CorrectAnswerForm.Designer.cs",
               "RelativeDocumentMoniker": "CorrectAnswerForm.Designer.cs",
@@ -253,45 +269,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "CorrectAnswerForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\CorrectAnswerForm.cs",
               "RelativeDocumentMoniker": "CorrectAnswerForm.cs",
               "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\CorrectAnswerForm.cs",
               "RelativeToolTip": "CorrectAnswerForm.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAywCYAAAAZAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAADgvyYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T20:06:32.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 4,
               "Title": "GuessPageForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs",
               "RelativeDocumentMoniker": "GuessPageForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs [Design]*",
-              "RelativeToolTip": "GuessPageForm.cs [Design]*",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs [Design]",
+              "RelativeToolTip": "GuessPageForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T19:27:47.485Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GuessPageForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs",
               "RelativeDocumentMoniker": "GuessPageForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs*",
-              "RelativeToolTip": "GuessPageForm.cs*",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwDsAAAApAAAA",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.cs",
+              "RelativeToolTip": "GuessPageForm.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAEwFMAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T19:28:54.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "PaintForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.Designer.cs",
               "RelativeDocumentMoniker": "PaintForm.Designer.cs",
@@ -304,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "CorrectAnswerForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\CorrectAnswerForm.cs",
               "RelativeDocumentMoniker": "CorrectAnswerForm.cs",
@@ -316,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "GuessPageForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessPageForm.Designer.cs",
               "RelativeDocumentMoniker": "GuessPageForm.Designer.cs",
@@ -329,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "SelectWordPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\SelectWordPage.cs",
               "RelativeDocumentMoniker": "SelectWordPage.cs",
@@ -341,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FormHowToPlay.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\FormHowToPlay.cs",
               "RelativeDocumentMoniker": "FormHowToPlay.cs",
@@ -353,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -365,19 +381,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GuessTimeForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs",
               "RelativeDocumentMoniker": "GuessTimeForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs [Design]*",
-              "RelativeToolTip": "GuessTimeForm.cs [Design]*",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs [Design]",
+              "RelativeToolTip": "GuessTimeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T19:23:27.538Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -390,39 +406,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "GuessTimeForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs",
               "RelativeDocumentMoniker": "GuessTimeForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs*",
-              "RelativeToolTip": "GuessTimeForm.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAeAAAA",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\GuessTimeForm.cs",
+              "RelativeToolTip": "GuessTimeForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADgvyYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T19:16:41.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "SelectWordPage.Designer.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\SelectWordPage.Designer.cs",
               "RelativeDocumentMoniker": "SelectWordPage.Designer.cs",
               "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\SelectWordPage.Designer.cs",
               "RelativeToolTip": "SelectWordPage.Designer.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAADgv1oAAABUAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAADgv1oAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T19:24:42.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PaintForm.cs",
               "DocumentMoniker": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs",
               "RelativeDocumentMoniker": "PaintForm.cs",
-              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs*",
-              "RelativeToolTip": "PaintForm.cs*",
-              "ViewState": "AQIAABEBAAAAAAAAAAAnwCQBAAA7AAAA",
+              "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\PaintForm.cs",
+              "RelativeToolTip": "PaintForm.cs",
+              "ViewState": "AQIAABgBAAAAAAAAAAAqwCkBAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T19:10:29.384Z",
               "EditorCaption": ""
@@ -435,7 +451,7 @@
               "RelativeDocumentMoniker": "SelectWordPage.cs",
               "ToolTip": "C:\\Users\\musta\\visualstudio\\CizioApp\\SelectWordPage.cs",
               "RelativeToolTip": "SelectWordPage.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAASwC0AAAAhAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAADgvxUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T18:48:12.78Z",
               "EditorCaption": ""

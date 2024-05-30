@@ -4,11 +4,9 @@ namespace CizioApp
     partial class Form2
     {
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.TextBox txtCategory;
         private System.Windows.Forms.Button btnOyunaBasla;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPlayer1;
         private System.Windows.Forms.TextBox txtPlayer2;
 
@@ -24,11 +22,9 @@ namespace CizioApp
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            txtCategory = new TextBox();
             btnOyunaBasla = new Button();
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
             txtPlayer1 = new TextBox();
             txtPlayer2 = new TextBox();
             label5 = new Label();
@@ -40,14 +36,6 @@ namespace CizioApp
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
-            // txtCategory
-            // 
-            txtCategory.Location = new Point(394, 676);
-            txtCategory.Margin = new Padding(4, 5, 4, 5);
-            txtCategory.Name = "txtCategory";
-            txtCategory.Size = new Size(265, 27);
-            txtCategory.TabIndex = 0;
-            // 
             // btnOyunaBasla
             // 
             btnOyunaBasla.BackColor = Color.LawnGreen;
@@ -56,7 +44,7 @@ namespace CizioApp
             btnOyunaBasla.FlatStyle = FlatStyle.Flat;
             btnOyunaBasla.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
             btnOyunaBasla.ForeColor = Color.White;
-            btnOyunaBasla.Location = new Point(394, 734);
+            btnOyunaBasla.Location = new Point(391, 683);
             btnOyunaBasla.Margin = new Padding(4, 5, 4, 5);
             btnOyunaBasla.Name = "btnOyunaBasla";
             btnOyunaBasla.Size = new Size(188, 46);
@@ -89,21 +77,9 @@ namespace CizioApp
             label2.TabIndex = 3;
             label2.Text = "Player 2:";
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(270, 673);
-            label3.Margin = new Padding(4, 0, 4, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(108, 27);
-            label3.TabIndex = 4;
-            label3.Text = "Kelime :";
-            // 
             // txtPlayer1
             // 
-            txtPlayer1.Location = new Point(601, 578);
+            txtPlayer1.Location = new Point(102, 588);
             txtPlayer1.Margin = new Padding(4, 5, 4, 5);
             txtPlayer1.Name = "txtPlayer1";
             txtPlayer1.Size = new Size(265, 27);
@@ -111,7 +87,7 @@ namespace CizioApp
             // 
             // txtPlayer2
             // 
-            txtPlayer2.Location = new Point(113, 578);
+            txtPlayer2.Location = new Point(601, 588);
             txtPlayer2.Margin = new Padding(4, 5, 4, 5);
             txtPlayer2.Name = "txtPlayer2";
             txtPlayer2.Size = new Size(265, 27);
@@ -179,23 +155,20 @@ namespace CizioApp
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Indigo;
-            ClientSize = new Size(1024, 867);
+            ClientSize = new Size(958, 867);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(txtPlayer2);
             Controls.Add(txtPlayer1);
-            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnOyunaBasla);
-            Controls.Add(txtCategory);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Margin = new Padding(4, 5, 4, 5);
             Name = "Form2";
             Text = "Form2";
-            Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);

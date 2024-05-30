@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text.Json;
 using System.Windows.Forms;
 
 namespace CizioApp
@@ -14,20 +16,27 @@ namespace CizioApp
         private Point startPoint, endPoint;
 
         private string word;
+        private int player1Point;
+        private int player2Point;
+
+
         private Label lblWord;
         private System.Windows.Forms.Timer wordTimer;
         private System.Windows.Forms.Timer drawTimer;
         private Label lblTimer;
         private int drawTimeLeft = 60;
-
+        private int playerTurn;
         private static readonly HttpClient client = new HttpClient();
 
-        public PaintForm(string playerName, string word)
+        public PaintForm(string playerName, string word, int playerTurn, int player1Point, int player2Point)
         {
             InitializeComponent();
             this.Text = $"{playerName} Çiziyor";
             this.canvas = new Bitmap(this.ClientSize.Width, this.ClientSize.Height);
             this.word = word;
+            this.player1Point = player1Point;
+            this.player2Point = player2Point;
+            this.playerTurn = playerTurn;
 
             lblWord = new Label();
             lblWord.Text = word;
@@ -55,6 +64,8 @@ namespace CizioApp
             this.Controls.Add(lblTimer);
         }
 
+      
+
         private void WordTimer_Tick(object sender, EventArgs e)
         {
             lblWord.Visible = false;
@@ -68,7 +79,7 @@ namespace CizioApp
             if (drawTimeLeft <= 0)
             {
                 drawTimer.Stop();
-                ShowGuessPageForm();
+                ShowGuessTimeForm();
             }
         }
 
@@ -233,24 +244,60 @@ namespace CizioApp
             currentShape = clickedButton.Tag.ToString();
         }
 
+        private async Task<string> translate(string text)
+        {
+
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Post,
+                RequestUri = new Uri("https://google-translator9.p.rapidapi.com/v2"),
+                Headers =
+         {
+             { "x-rapidapi-key", "f812bc03famsha491e92cf972a41p12327djsnca7a41cd834b" },
+             { "x-rapidapi-host", "google-translator9.p.rapidapi.com" },
+         },
+                Content = new StringContent("{\"q\":\"" + text + "\",\"source\":\"tr\",\"target\":\"en\",\"format\":\"text\"}")
+                {
+                    Headers = { ContentType = new MediaTypeHeaderValue("application/json") }
+                }
+            };
+
+            using (var response = await client.SendAsync(request))
+            {
+                response.EnsureSuccessStatusCode();
+                var body = await response.Content.ReadAsStringAsync();
+                var jsonDoc = JsonDocument.Parse(body);
+                var translatedText = jsonDoc.RootElement
+                                            .GetProperty("data")
+                                            .GetProperty("translations")[0]
+                                            .GetProperty("translatedText")
+                                            .GetString();
+
+                return translatedText;
+            }
+        }
+
         private void SaveCanvas()
         {
             string filePath = "canvas.png";
             canvas.Save(filePath, System.Drawing.Imaging.ImageFormat.Png);
         }
 
-        private void ShowGuessPageForm()
+        private async void ShowGuessTimeForm()
         {
             SaveCanvas(); // Save the canvas before showing the guess page form
             string filePath = "canvas.png";
-            GuessPageForm guessPageForm = new GuessPageForm(filePath);
-            guessPageForm.Show();
+            string mainWord = await translate(word);
+            Console.WriteLine(mainWord);
+            Console.WriteLine(word);
+            GuessTimeForm guessTimeForm = new GuessTimeForm(mainWord, playerTurn, player1Point, player2Point);
+            guessTimeForm.Show();
             this.Hide();
         }
 
         private void EndButton_Click(object sender, EventArgs e)
         {
-            ShowGuessPageForm();
+            ShowGuessTimeForm();
         }
     }
 }

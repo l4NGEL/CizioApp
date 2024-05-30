@@ -27,11 +27,11 @@
             label1.AutoSize = true;
             label1.Font = new Font("Cascadia Code", 48F, FontStyle.Bold, GraphicsUnit.Point, 162);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(132, 209);
+            label1.Location = new Point(140, 209);
             label1.Name = "label1";
             label1.Size = new Size(750, 318);
             label1.TabIndex = 2;
-            label1.Text = "Lütfen telefonu\r\ndiğer oyuncuya \r\n     verin\r\n";
+            label1.Text = "lütfen cihazı \r\ndiğer oyuncuya \r\n     verin\r\n";
             // 
             // btnSubmitGuess
             // 
@@ -41,7 +41,7 @@
             btnSubmitGuess.FlatStyle = FlatStyle.Flat;
             btnSubmitGuess.Font = new Font("Cascadia Code", 18F, FontStyle.Bold, GraphicsUnit.Point, 162);
             btnSubmitGuess.ForeColor = Color.Lime;
-            btnSubmitGuess.Location = new Point(375, 610);
+            btnSubmitGuess.Location = new Point(355, 606);
             btnSubmitGuess.Name = "btnSubmitGuess";
             btnSubmitGuess.Size = new Size(280, 86);
             btnSubmitGuess.TabIndex = 1;
@@ -54,7 +54,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Cascadia Code", 48F, FontStyle.Bold, GraphicsUnit.Point, 162);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(168, 103);
+            label2.Location = new Point(160, 103);
             label2.Name = "label2";
             label2.Size = new Size(656, 106);
             label2.TabIndex = 3;
@@ -65,7 +65,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Crimson;
-            ClientSize = new Size(1006, 820);
+            ClientSize = new Size(987, 820);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnSubmitGuess);

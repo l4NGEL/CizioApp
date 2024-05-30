@@ -24,7 +24,6 @@ C:\Users\musta\visualstudio\CizioApp\bin\Debug\net8.0-windows\Cizio.dll
 C:\Users\musta\visualstudio\CizioApp\bin\Debug\net8.0-windows\Cizio.pdb
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\CizioApp.Form1.resources
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\CizioApp.Form2.resources
-C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\CizioApp.Form3.resources
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\CizioApp.PaintForm.resources
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.csproj.GenerateResource.cache
 C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.GeneratedMSBuildEditorConfig.editorconfig
@@ -61,3 +60,11 @@ C:\Users\Dell\source\repos\CizioApp\obj\Debug\net8.0-windows\Cizio.Properties.Re
 C:\Users\Dell\source\repos\CizioApp\obj\Debug\net8.0-windows\CizioApp.GuessTimeForm.resources
 C:\Users\Dell\source\repos\CizioApp\obj\Debug\net8.0-windows\CizioApp.GuessPageForm.resources
 C:\Users\Dell\source\repos\CizioApp\obj\Debug\net8.0-windows\CizioApp.FormHowToPlay.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\CizioApp.FormHowToPlay.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\CizioApp.GuessPageForm.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\CizioApp.GuessTimeForm.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.Properties.Resources.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.SelectWordPage.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.CorrectAnswerForm.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.WrongAnswerForm.resources
+C:\Users\musta\visualstudio\CizioApp\obj\Debug\net8.0-windows\Cizio.WordNotFound.resources

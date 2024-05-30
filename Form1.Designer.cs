@@ -130,7 +130,6 @@ namespace CizioApp
             Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Çizio";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);

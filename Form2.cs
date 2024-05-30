@@ -1,4 +1,6 @@
-﻿namespace CizioApp
+﻿using Cizio;
+
+namespace CizioApp
 {
     public partial class Form2 : Form
     {
@@ -11,17 +13,13 @@
         {
             string player1Name = txtPlayer1.Text;
             string player2Name = txtPlayer2.Text;
-            
-            string word = txtCategory.Text;
 
-            PaintForm paintForm = new PaintForm(player1Name, word);
-            paintForm.Show();
+
+            SelectWordPage selectForm = new SelectWordPage(player1Name, player2Name);
+            selectForm.Show();
             this.Hide();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

@@ -42,14 +42,10 @@ namespace Cizio
             this.Close();
         }
 
-        private void WordNotFound_Load(object sender, EventArgs e)
+        private void btnSubmitGuess_Click(object sender, EventArgs e)
         {
-            if(playerTurn == 3)
-            {
-                PointStatusForm pointStatusForm = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
-                pointStatusForm.Show();
-                this.Close();
-            }
+            PointStatusForm pointStatusForm = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
+            pointStatusForm.Show();
         }
     }
 }

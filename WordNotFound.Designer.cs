@@ -28,6 +28,7 @@ namespace Cizio
             btnNewWord = new Button();
             label2 = new Label();
             label1 = new Label();
+            btnSubmitGuess = new Button();
             SuspendLayout();
             // 
             // btnNewWord
@@ -69,17 +70,33 @@ namespace Cizio
             label1.TabIndex = 3;
             label1.Text = "Your point: 0";
             // 
+            // btnSubmitGuess
+            // 
+            btnSubmitGuess.BackColor = Color.White;
+            btnSubmitGuess.FlatAppearance.BorderColor = Color.Lime;
+            btnSubmitGuess.FlatAppearance.BorderSize = 8;
+            btnSubmitGuess.FlatStyle = FlatStyle.Flat;
+            btnSubmitGuess.Font = new Font("Cascadia Code", 18F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            btnSubmitGuess.ForeColor = Color.Lime;
+            btnSubmitGuess.Location = new Point(586, 363);
+            btnSubmitGuess.Name = "btnSubmitGuess";
+            btnSubmitGuess.Size = new Size(155, 61);
+            btnSubmitGuess.TabIndex = 5;
+            btnSubmitGuess.Text = "Skor";
+            btnSubmitGuess.UseVisualStyleBackColor = false;
+            btnSubmitGuess.Click += btnSubmitGuess_Click;
+            // 
             // WordNotFound
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Indigo;
             ClientSize = new Size(764, 450);
+            Controls.Add(btnSubmitGuess);
             Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(btnNewWord);
             Name = "WordNotFound";
-            Load += WordNotFound_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -87,5 +104,6 @@ namespace Cizio
         private Label label1;
         private Label label2;
         private Button btnNewWord;
+        private Button btnSubmitGuess;
     }
 }

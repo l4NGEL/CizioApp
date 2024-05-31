@@ -19,7 +19,7 @@ namespace Cizio
         private int playerTurn;
         private string player1Name;
         private string player2Name;
-        
+
 
 
         public CorrectAnswerForm()
@@ -45,19 +45,16 @@ namespace Cizio
         }
 
         private void btnNewWord_Click(object sender, EventArgs e)
-        {   if (playerTurn == 3)
-            {
-                PointStatusForm pointStatusFrom = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
-                pointStatusFrom.Show();
-                this.Close();
-            }
-            else
-            {
-                SelectWordPage selectForm = new SelectWordPage(player1Name, player2Name, playerTurn, player1Point, player2Point);
-                selectForm.Show();
-                this.Close();
-            }
-            
+        {
+            SelectWordPage selectForm = new SelectWordPage(player1Name, player2Name, playerTurn, player1Point, player2Point);
+            selectForm.Show();
+            this.Close();
+        }
+
+        private void btnSubmitGuess_Click(object sender, EventArgs e)
+        {
+            PointStatusForm pointStatus = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
+            pointStatus.Show();
         }
     }
 }

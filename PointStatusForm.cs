@@ -24,6 +24,7 @@ namespace Cizio
 
         public PointStatusForm(string player1Name, string player2Name, int player1Point, int player2Point)
         {
+            InitializeComponent();
             this.player1Name = player1Name;
             this.player2Name = player2Name;
             this.player1Point = player1Point;
@@ -42,5 +43,7 @@ namespace Cizio
             label4.Text = player1Point.ToString();
             label5.Text = player2Point.ToString();
         }
+
+        
     }
 }

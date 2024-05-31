@@ -27,7 +27,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Cascadia Code", 48F, FontStyle.Bold, GraphicsUnit.Point, 162);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(140, 209);
+            label1.Location = new Point(150, 209);
             label1.Name = "label1";
             label1.Size = new Size(750, 318);
             label1.TabIndex = 2;
@@ -41,7 +41,7 @@
             btnSubmitGuess.FlatStyle = FlatStyle.Flat;
             btnSubmitGuess.Font = new Font("Cascadia Code", 18F, FontStyle.Bold, GraphicsUnit.Point, 162);
             btnSubmitGuess.ForeColor = Color.Lime;
-            btnSubmitGuess.Location = new Point(355, 606);
+            btnSubmitGuess.Location = new Point(352, 631);
             btnSubmitGuess.Name = "btnSubmitGuess";
             btnSubmitGuess.Size = new Size(280, 86);
             btnSubmitGuess.TabIndex = 1;

@@ -285,10 +285,7 @@ namespace CizioApp
         private void SaveCanvas()
         {
             string filePath = "canvas"+playerTurn+".png";
-            if (File.Exists(filePath))
-            {
-                File.Delete(filePath);
-            }
+           
             using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))
             {
                 canvas.Save(fs, System.Drawing.Imaging.ImageFormat.Png);

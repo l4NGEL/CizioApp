@@ -57,42 +57,61 @@ namespace CizioApp
 
             txtGuess.Text = "";
             // Process guess here
-
             
 
+                if (word == guess)
+                {
+                    if (playerTurn % 2 == 0)
+                    {
+                        player1Point += point;
+                    }
+                    else
+                    {
+                        player2Point += point;
+                    }
+                    
+                    if(playerTurn < 4)
+                    {
+                        ++playerTurn;
+                        CorrectAnswerForm correctAnswerForm = new CorrectAnswerForm(point, player1Point, player2Point, playerTurn, player1Name, player2Name);
+                        correctAnswerForm.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        PointStatusForm pointStatusForm = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
+                        pointStatusForm.Show();
+                        this.Close();
+                    }
 
-            if (word == guess)
-            {
-                if (playerTurn % 2 == 0)
-                {
-                    player1Point += point;
                 }
                 else
                 {
-                    player2Point += point;
-                }
-                ++playerTurn;
-                CorrectAnswerForm correctAnswerForm = new CorrectAnswerForm(point, player1Point, player2Point, playerTurn, player1Name, player2Name);
-                correctAnswerForm.Show();
-                this.Close();
-            }
-            else
-            {
-                point -= 2;
-                if(point > 4)
-                {
-                    WrongAnswerForm wrongAnswerForm = new WrongAnswerForm(point);
-                    wrongAnswerForm.Show();
-                }
-                else
-                {
-                    point = 0;
-                    WordNotFound wordNotFoundPage = new WordNotFound(point, player1Point, player2Point, playerTurn, player1Name, player2Name);
-                    wordNotFoundPage.Show();
-                    this.Close();
-                }
+                    point -= 2;
+                    if(point > 4)
+                    {
+                        WrongAnswerForm wrongAnswerForm = new WrongAnswerForm(point);
+                        wrongAnswerForm.Show();
+                    }
+                    else
+                    {
+                        if (playerTurn < 3)
+                        {
+                            point = 0;
+                            WordNotFound wordNotFoundPage = new WordNotFound(point, player1Point, player2Point, playerTurn, player1Name, player2Name);
+                            wordNotFoundPage.Show();
+                            this.Close();
+                        }
+                        else
+                        {
+                            PointStatusForm pointStatusForm = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
+                            pointStatusForm.Show();
+                            this.Close();
+
+                        }
+                    }
                 
-            }
+                }
         }
     }
 }

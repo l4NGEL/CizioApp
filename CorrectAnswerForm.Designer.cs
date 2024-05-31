@@ -27,6 +27,7 @@ namespace Cizio
             label2 = new Label();
             label1 = new Label();
             btnNewWord = new Button();
+            btnSubmitGuess = new Button();
             SuspendLayout();
             // 
             // label2
@@ -58,7 +59,7 @@ namespace Cizio
             btnNewWord.FlatStyle = FlatStyle.Flat;
             btnNewWord.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
             btnNewWord.ForeColor = Color.White;
-            btnNewWord.Location = new Point(320, 318);
+            btnNewWord.Location = new Point(321, 322);
             btnNewWord.Margin = new Padding(4, 5, 4, 5);
             btnNewWord.Name = "btnNewWord";
             btnNewWord.Size = new Size(188, 46);
@@ -67,12 +68,29 @@ namespace Cizio
             btnNewWord.UseVisualStyleBackColor = false;
             btnNewWord.Click += btnNewWord_Click;
             // 
+            // btnSubmitGuess
+            // 
+            btnSubmitGuess.BackColor = Color.White;
+            btnSubmitGuess.FlatAppearance.BorderColor = Color.LimeGreen;
+            btnSubmitGuess.FlatAppearance.BorderSize = 8;
+            btnSubmitGuess.FlatStyle = FlatStyle.Flat;
+            btnSubmitGuess.Font = new Font("Cascadia Code", 15F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            btnSubmitGuess.ForeColor = Color.LimeGreen;
+            btnSubmitGuess.Location = new Point(653, 369);
+            btnSubmitGuess.Name = "btnSubmitGuess";
+            btnSubmitGuess.Size = new Size(155, 61);
+            btnSubmitGuess.TabIndex = 4;
+            btnSubmitGuess.Text = "Skor";
+            btnSubmitGuess.UseVisualStyleBackColor = false;
+            btnSubmitGuess.Click += btnSubmitGuess_Click;
+            // 
             // CorrectAnswerForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Indigo;
             ClientSize = new Size(820, 442);
+            Controls.Add(btnSubmitGuess);
             Controls.Add(btnNewWord);
             Controls.Add(label1);
             Controls.Add(label2);
@@ -85,6 +103,6 @@ namespace Cizio
         private Label label2;
         private Label label1;
         private Button btnNewWord;
-   
+        private Button btnSubmitGuess;
     }
 }

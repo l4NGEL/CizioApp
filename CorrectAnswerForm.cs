@@ -45,10 +45,19 @@ namespace Cizio
         }
 
         private void btnNewWord_Click(object sender, EventArgs e)
-        {
-            SelectWordPage selectForm = new SelectWordPage(player1Name, player2Name, playerTurn, player1Point, player2Point);
-            selectForm.Show();
-            this.Close();
+        {   if (playerTurn == 3)
+            {
+                PointStatusForm pointStatusFrom = new PointStatusForm(player1Name, player2Name, player1Point, player2Point);
+                pointStatusFrom.Show();
+                this.Close();
+            }
+            else
+            {
+                SelectWordPage selectForm = new SelectWordPage(player1Name, player2Name, playerTurn, player1Point, player2Point);
+                selectForm.Show();
+                this.Close();
+            }
+            
         }
     }
 }

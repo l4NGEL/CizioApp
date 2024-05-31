@@ -37,8 +37,8 @@ namespace CizioApp
         {
             if (!string.IsNullOrEmpty(imagePath) && System.IO.File.Exists(imagePath))
             {
+                
                 pictureBox.Image = Image.FromFile(imagePath);
-                DisposeCanvas();
             }
             else
             {
@@ -46,15 +46,7 @@ namespace CizioApp
             }
         }
 
-        public void DisposeCanvas()
-        {
-            // Canvas nesnesini serbest bırak
-            if (canvas != null)
-            {
-                canvas.Dispose();
-                canvas = null;
-            }
-        }
+        
 
 
         int point = 10;

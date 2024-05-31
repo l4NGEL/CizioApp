@@ -36,7 +36,7 @@ namespace CizioApp
 
         private void btnSubmitGuess_Click(object sender, EventArgs e)
         {
-            string imagePath = "canvas.png"; // Burada dosya yolunu belirtiyoruz
+            string imagePath = "canvas" +playerTurn+ ".png"; // Burada dosya yolunu belirtiyoruz
             this.Hide();
             GuessPageForm guessPageForm = new GuessPageForm(imagePath, word, playerTurn, player1Point, player2Point, player1Name, player2Name, canvas);
             guessPageForm.Show();

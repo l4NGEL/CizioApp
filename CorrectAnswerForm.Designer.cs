@@ -45,7 +45,7 @@ namespace Cizio
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15F);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(244, 242);
+            label1.Location = new Point(340, 242);
             label1.Name = "label1";
             label1.Size = new Size(0, 35);
             label1.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace Cizio
             btnNewWord.FlatStyle = FlatStyle.Flat;
             btnNewWord.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
             btnNewWord.ForeColor = Color.White;
-            btnNewWord.Location = new Point(319, 309);
+            btnNewWord.Location = new Point(320, 318);
             btnNewWord.Margin = new Padding(4, 5, 4, 5);
             btnNewWord.Name = "btnNewWord";
             btnNewWord.Size = new Size(188, 46);

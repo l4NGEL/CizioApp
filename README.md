@@ -107,12 +107,21 @@ CizioApp/
   - Kolay navigasyon
  
 ### Ekran Görüntüleri
--Giriş Ekranı
--![WhatsApp Image 2025-08-06 at 16 10 01](https://github.com/user-attachments/assets/81347b87-6fbb-45be-805e-56fb312cbeae)
--Oyun İçi Kullanıcı Giriş Ekranı
--![WhatsApp Image 2025-08-06 at 16 10 57](https://github.com/user-attachments/assets/0160c8a6-bf0c-4f02-a97d-a82be79d3b57)
--Çizim Tahmin Ekranı 
--![WhatsApp Image 2025-08-06 at 16 12 06](https://github.com/user-attachments/assets/98b76723-a5f4-4c87-a164-955e0672f93b)
+## 📱 Ekran Görüntüleri
+
+### 🟢 Giriş Ekranı
+![Giriş Ekranı](https://github.com/user-attachments/assets/81347b87-6fbb-45be-805e-56fb312cbeae)
+
+---
+
+### 🔵 Oyun İçi Kullanıcı Giriş Ekranı
+![Oyun İçi Kullanıcı Giriş Ekranı](https://github.com/user-attachments/assets/0160c8a6-bf0c-4f02-a97d-a82be79d3b57)
+
+---
+
+### 🟡 Çizim Tahmin Ekranı
+![Çizim Tahmin Ekranı](https://github.com/user-attachments/assets/98b76723-a5f4-4c87-a164-955e0672f93b)
+
 
 ## 🐛 Bilinen Sorunlar
 
